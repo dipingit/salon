@@ -17,7 +17,7 @@ $factory->define(App\User::class, function (Faker $faker) {
     return [
         'name' => 'Tom Hanks',
         'email' => 'tom@gmail.com',
-        'password' => Hash::make('112358'),
+        'password' => Hash::make('123456'),
         'image' => 'avatar.jpg',
         'remember_token' => str_random(10),
     ];
